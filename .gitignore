@@ -1,0 +1,132 @@
+# ========================================
+# DEPENDÊNCIAS
+# ========================================
+node_modules/
+npm-shrinkwrap.json
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# ========================================
+# BUILD & DIST
+# ========================================
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# ========================================
+# VARIÁVEIS DE AMBIENTE
+# ========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ========================================
+# LOGS
+# ========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================================
+# COVERAGE & TESTES
+# ========================================
+coverage/
+.nyc_output/
+.coverage/
+.pytest_cache/
+
+# ========================================
+# SISTEMA OPERACIONAL
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# EDITOR & IDE
+# ========================================
+.vscode/
+.idea/
+.idea_modules/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.VC.db
+*.VC.VC.opendb
+.vs/
+.vscode-test
+.vsix
+*.swp
+*.swo
+*~
+.vim/
+
+# ========================================
+# DESENVOLVIMENTO LOCAL
+# ========================================
+.env.example
+.local/
+.cache/
+.husky/_
+
+# ========================================
+# VERCEL & DEPLOYMENT
+# ========================================
+.vercel/
+.vercelignore
+
+# ========================================
+# FERRAMENTAS & ARQUIVOS TEMPORÁRIOS
+# ========================================
+.turbo/
+dist-ssr/
+*.egg-info/
+.pytest_cache
+.mypy_cache
+__pycache__/
+.eslintcache
+.stylelintcache
+*.bak
+*.tmp
+*.temp
+*~
+
+# ========================================
+# ARQUIVOS DE DESENVOLVIMENTO
+# ========================================
+.pnp
+.pnp.js
+.npm
+.eslintignore
+
+# ========================================
+# BROWSER ESPECÍFICOS
+# ========================================
+# Arquivos de session do Firefox
+.mozilla/
+
+# ========================================
+# ARQUIVOS ESPECÍFICOS DO PROJETO
+# ========================================
+Fotos/
+guidelines/
+*.zip
+*.rar
+*.tar.gz
+

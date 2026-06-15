@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f3ea;
+  --foreground: #1f1a17;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #FAFBFC;
+  color: var(--foreground);
+  font-family: var(--font-poppins), var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(177, 120, 57, 0.22);
+}
+
+.section-shell {
+  position: relative;
+}
+
+.section-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(31, 26, 23, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 26, 23, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.16), transparent 88%);
+  pointer-events: none;
+}
