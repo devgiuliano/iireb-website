@@ -51,7 +51,7 @@ Instituições de saúde precisam de uma presença digital forte e otimizada que
 
 | Desktop | Mobile |
 |---------|--------|
-| ![Hero Section](/docs/screenshots/hero-desktop.png) | ![Hero Section Mobile](/docs/screenshots/hero-mobile.png) |
+| ![Hero Section](/Fotos/hero.webp) | ![Hero Section Mobile](/Fotos/hero.webp) |
 
 ---
 
